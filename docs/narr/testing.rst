@@ -308,7 +308,7 @@ some code *and* its integration with the rest of the :app:`Pyramid`
 framework.
 
 In :app:`Pyramid` applications that are plugins to Pyramid, you can create an
-integration test by including it's ``includeme`` function via
+integration test by including its ``includeme`` function via
 :meth:`pyramid.config.Configurator.include` in the test's setup code.  This
 causes the entire :app:`Pyramid` environment to be set up and torn down as if
 your application was running "for real".  This is a heavy-hammer way of
