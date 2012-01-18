@@ -146,7 +146,7 @@ name ``MyProject`` as a section name:
 
 .. code-block:: text
 
-    chrism@thinko env26]$ bin/pshell starter/development.ini#MyProject
+    chrism@thinko env26]$ bin/pshell starter/development.ini#main
     Python 2.6.5 (r265:79063, Apr 29 2010, 00:31:32) 
     [GCC 4.4.3] on linux2
     Type "help" for more information.
