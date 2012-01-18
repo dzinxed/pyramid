@@ -371,8 +371,8 @@ Creating Functional Tests
 
 Functional tests test your literal application.
 
-The below test assumes that your application's package name is ``myapp``, and
-that there is view that returns an HTML body when the root URL is invoked.
+The test below assumes that your application's package name is ``myapp``, and
+that there is a view that returns an HTML body when the root URL is invoked.
 It further assumes that you've added a ``tests_require`` dependency on the
 ``WebTest`` package within your ``setup.py`` file.  :term:`WebTest` is a
 functional testing package written by Ian Bicking.
